@@ -5,7 +5,7 @@ var searchYouTube = (options, callback) => {
     type: 'GET',
     contentType: 'application/json',
     success: (data) => {
-      callback(data.items)
+      callback(data.items);
     },
 
     error: function (data) {

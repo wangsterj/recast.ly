@@ -12,7 +12,7 @@ class App extends React.Component {
 
     this.onListItemClick = this.onListItemClick.bind(this);
     this.searchUpdate = this.searchUpdate.bind(this);
-    this.onChange = ._debounce(this.onChange.bind(this),2000);
+    this.onChange = _.debounce(this.onChange.bind(this), 500);
 
   }
 
